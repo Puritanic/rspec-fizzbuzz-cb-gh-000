@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 15 == 0
-    puts "FizzBuzz" # Go fizz
+     "FizzBuzz" # Go fizz
   elsif int % 3 == 0 # if the number int is divisible by 3
-    puts "Fizz" # Go fizz
+     "Fizz" # Go fizz
   elsif int % 5 == 0
-    puts "Buzz"
+     "Buzz"
   end
 end
